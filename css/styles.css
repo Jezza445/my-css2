@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-	color: #0175E9;
-	font-size: 4.625rem;
+	color: #FF0000;
+	font-size: 4.550rem;
 	line-height: normal;
 	margin: 50px auto 0 auto;
 	font-family: 'Sacramento', cursive;
@@ -17,7 +17,7 @@ h1 {
 h2 {
 	color: #66bfbf;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	padding-bottom: 10px;
 }
 
@@ -28,10 +28,12 @@ h3 {
 
 p {
 	line-height: 2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
 }
 
 hr {
-	border: dotted #EAF6F6 6px;
+	border: dotted  6px #EAF6F6;
 	border-bottom: none;
 	width: 4%;
 	margin: 100px auto;
@@ -43,7 +45,7 @@ a{
 }
 
 .top-container {
-	background-color: #B1FFFD;
+	background-color: #E4FBFF;
 	position: relative;
 	padding-top: 100px;
 }
@@ -54,7 +56,7 @@ a{
 
 
 .bottom-container {
-	background-color: #B1FFFD;
+	background-color: #E4FBFF;
 padding: 50px  20px ;}
 
 .skill-row {
@@ -67,8 +69,9 @@ padding: 50px  20px ;}
 	width: 30%;
 	margin: auto;
 	color: #40514E;
-	font-family: 'Merriweather Sans';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
+	font-weight: bold;
 }
 
 .javacolour {
@@ -157,6 +160,12 @@ padding: 50px  20px ;}
 }
 
 .contact-message {
-	margin: auto;
+	font-weight:bold;
+	width: auto;
 	margin: 40px auto 60px;
+}
+
+.footer-link{
+	font-weight: bold;
+	color: #337FED;
 }
